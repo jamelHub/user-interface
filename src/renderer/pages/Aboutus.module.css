@@ -1,0 +1,174 @@
+/* Aboutus.css */
+
+.imageContainer {
+  display: flex; /* Utiliser flexbox pour aligner les images horizontalement */
+  justify-content: space-between; /* Espacement égal entre les deux images */
+  margin-top: 23px; /* Déplacer les images vers le bas */
+  position: relative; /* Position relative pour les éléments enfants absolus */
+}
+
+.image {
+  width: 49%; /* Ajuster la largeur des images à 45% pour les aligner horizontalement */
+  height: auto;
+  border-radius: 15px;
+}
+
+.aboutBox {
+  cursor: pointer; /* Changer le curseur au survol */
+  padding: 20px; /* Ajouter une marge interne pour agrandir la boîte autour du texte */
+  border: 1px solid black; /* Ajouter une bordure à la boîte */
+  width: 50%; /* Largeur de la boîte égale à 50% pour correspondre à la largeur des images */
+  max-width: 400px; /* Largeur maximale de la boîte */
+  margin: 10px auto; /* Centrer la boîte horizontalement et ajouter un espace en dessous des images */
+  position: absolute; /* Position absolue pour placer la boîte au-dessus des images */
+  top: 20%; /* Placer la boîte un peu plus bas */
+  left: 35%; /* Centrer la boîte horizontalement */
+  background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent pour le texte */
+  border-radius: 15px;
+}
+
+.aboutText {
+  font-size: 20px;
+  line-height: 1.5;
+  color: black;
+}
+
+.aboutBox:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajouter une ombre portée au survol */
+}
+
+@media (max-width: 1100px) {
+  .aboutBox {
+    max-width: 100%; /* Largeur maximale de la boîte ajustée pour les petits écrans */
+    width: auto; /* Largeur automatique pour s'adapter au contenu */
+    padding: 20px; /* Ajouter une marge interne pour les petits écrans */
+    margin: 10px; /* Ajouter une marge pour les petits écrans */
+    position: relative; /* Retourner à la position relative pour le positionnement normal */
+    top: auto; /* Retourner à la position normale */
+    left: auto; /* Retourner à la position normale */
+    transform: none; /* Retourner à la position normale */
+  }
+  .footerContent {
+    flex-direction: column; /* Aligner les éléments du footer en colonne pour les petits écrans */
+  }
+
+  .contact,
+  .socialMedia,
+  .sectors,
+  .site {
+    margin-right: 0; /* Supprimer la marge entre les sections pour les petits écrans */
+    margin-bottom: 20px; /* Ajouter une marge en bas de chaque section pour les petits écrans */
+  }
+  
+  .logologo{
+    
+    margin:-50px;
+    padding-right: 50px;
+
+  }
+
+}
+
+/* Aboutus.module.css */
+
+/* Ajuster l'icône de retour */
+.backLink {
+  margin-bottom: 60px;
+  margin-right: 20px; /* Ajouter une marge à droite de l'icône de retour */
+}
+
+/* Ajuster le logo */
+.logoContainer {
+  position: absolute; /* Position absolue pour placer le logo */
+  bottom: 10px; /* Placer le logo en bas de la page */
+  left: 20px; /* Placer le logo à gauche de la page */
+  top: -20px;
+}
+
+.logologo {
+  position: absolute; /* Position absolue pour placer le logo */
+  bottom: 10px; /* Placer le logo en bas de la page */
+  right: 20px; /* Placer le logo à droite de la page */
+}
+
+.logo {
+  width: 100px; /* Taille du logo */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+/* Footer */
+.footer {
+  padding: 20px; /* Ajouter un padding autour du contenu du footer */
+  margin-top: 20px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between; /* Espacement égal entre les éléments du footer */
+  align-items: center; /* Alignement vertical */
+}
+
+.contact,
+.socialMedia,
+.sectors,
+.site {
+  flex: 1; /* Distribuer l'espace disponible de manière égale entre les éléments du footer */
+  margin-right: 20px; /* Ajouter un espacement entre les sections */
+}
+
+.contact h3,
+.socialMedia h3,
+.sectors h3,
+.site h3 {
+  margin-bottom: 10px; /* Ajouter un espacement en dessous du titre */
+  color: rgb(30, 109, 199);
+  transition: color 0.3s ease; /* Transition de couleur avec une durée de 0.3 seconde et une courbe d'accélération ease */
+
+}
+.contact h3:hover,
+.socialMedia h3:hover,
+.sectors h3:hover,
+.site h3:hover {
+  color: rgb(30, 109, 199); /* Couleur du texte au survol */
+  transform: scale(1.1);
+}
+
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  margin-right: 10px; /* Ajouter un espacement entre les icônes */
+}
+
+.sectors ul,
+.site ul {
+  list-style-type: none; /* Supprimer les puces de la liste */
+  padding: 0; /* Supprimer le padding par défaut */
+}
+
+.sectors ul li,
+.site ul li {
+  margin-bottom: 5px; /* Ajouter un espacement entre les éléments de la liste */
+}
+/* Aboutus.module.css */
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  margin-right: 10px; /* Ajouter un espacement entre les icônes */
+  cursor: pointer; /* Définir le curseur comme pointeur */
+}
+
+.icon:hover {
+  color: blue;
+  transform: scale(1.4);
+}
+
+.icon:active {
+  color:green; /* Changer la couleur de l'icône lorsqu'elle est cliquée */
+}

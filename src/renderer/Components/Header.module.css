@@ -1,0 +1,33 @@
+/* Style de base du header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    color:white;
+  
+    text-decoration: none;
+
+    transition: color 0.3s, transform 0.3s; /* Ajout d'une transition de couleur et de transformation */
+}
+
+.navigation a:hover {
+    color:rgb(217, 255, 0);
+    transform: scale(1.6);
+}
+
+.navigation a:last-child {
+    margin-right: 0;
+}
+
+
+

@@ -1,0 +1,49 @@
+/* Styles for header */
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 1rem;
+    z-index: 1000;
+    border-bottom-left-radius: 10px;
+}
+
+.closeIcon {
+    cursor: pointer;
+}
+
+/* Styles for button */
+.keyboardButton {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 0.5rem 1rem; /* Espacement intérieur */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer */
+    transition: background-color 0.3s ease; /* Transition en douceur pour la couleur de fond */
+}
+
+.keyboardButton:hover {
+    background-color: #75c9f0; /* Couleur de fond du bouton au survol */
+}
+/* Styles for Keyboard Icon */
+.keyboardIcon {
+    cursor: pointer;
+    margin-left: 10px; /* Ajouter une marge à gauche pour l'espacement */
+    font-size: 24px; /* Taille de l'icône */
+    color: #007bff;
+}
+.keyboardIcon:hover{
+   color: #75c9f0;
+}
+.em{
+    color: #007bff;
+}
+.em:hover{
+    color: #75c9f0;
+}

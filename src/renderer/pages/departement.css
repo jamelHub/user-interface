@@ -1,0 +1,80 @@
+
+
+
+/* Styles pour les liens */
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permettre le retour à la ligne des boutons si nécessaire */
+    margin-top: 20px; /* Ajouter un peu d'espace en haut */
+}
+
+.buttonContainer button {
+    border: 1px solid transparent; /* Bordure initialement transparente */
+    padding: 10px 20px; /* Espace à l'intérieur du bouton */
+    background-color: transparent; /* Fond transparent */
+    color: blue; /* Couleur du texte */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transition fluide de tous les changements sur 0.3s */
+}
+/* Styles pour le titre h2 */
+
+
+/* Styles pour les liens */
+.buttonContainer a:hover {
+    color:green;
+    border-color:blue; /* Couleur du texte en vert plus foncé au survol */
+}
+
+/* Styles pour le header */
+header {
+    position: relative; /* Position fixe */
+    top: 0; /* Le header sera placé en haut de la page */
+    width: 100%; /* Le header prendra toute la largeur de la page */
+    text-align: center; 
+    padding-left: 130px;
+}
+
+/* Styles pour les strong */
+.buttonContainer strong {
+    flex: 1; /* Pour que les éléments occupent la même largeur */
+    text-align: center; /* Centrer le contenu à l'intérieur du bouton */
+    margin: 0 20px; /* Ajouter de la marge entre les boutons */
+}
+
+
+/* Styles pour le composant HeaderWithNavigation */
+.header-with-navigation {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.left-icons {
+    margin-right: auto;
+}
+
+.header-icon {
+    margin-left: 5px;
+}
+.departmentImage {
+    width: 350px; /* Largeur fixe */
+    height: 250px; /* Hauteur automatique pour maintenir les proportions */
+    display: block;
+    margin: 20px auto; /* Centrer l'image et ajouter une marge en haut et en bas */
+    background-color: transparent;
+    transition: all 0.3s ease; /* Transition fluide de tous les changements sur 0.3s */
+    border-radius: 8px;
+
+}
+.departmentImage:hover{
+    transform: scale(1.1);
+}
+@media (max-width:1000PX){
+   .h2{
+    font-size: 1em;
+   } 
+
+}
+/* Styles pour la page de département */
+

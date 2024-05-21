@@ -1,0 +1,40 @@
+/* products.css */
+
+/* Styles par défaut */
+.table-header {
+    padding: 20px;
+    border: 1px solid #ddd;
+    color: rgb(0, 110, 255);
+  }
+  
+  .table-cell {
+    padding: 60px;
+    border: 1px solid #ddd;
+  }
+  
+  .choose-button {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    background-color: green;
+    color: #ffffff;
+  }
+  
+  .choose-button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Media query pour les petits écrans */
+  @media (max-width: 900px) {
+    .table-header,
+    .table-cell {
+      padding: 10px; /* Réduire le padding pour les petites écrans */
+    }
+  
+    .choose-button {
+      padding: 8px 16px; /* Réduire le padding pour les petites écrans */
+    }
+  }
+  

@@ -1,0 +1,21 @@
+.btn {
+    font-size: 14px;
+    padding: 8px 1px;
+    border: none; /* Ajoutez cette ligne pour supprimer la bordure */
+    max-width: 260px; /* Limitez la largeur maximale du bouton */
+    background-color: rgb(0, 110, 255);
+    transition: 0.8s ease;
+}
+.btn:hover{
+    background-color:rgb(0, 174, 255);
+    transform: scale(1.1);
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px;;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  

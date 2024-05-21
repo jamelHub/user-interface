@@ -1,0 +1,282 @@
+.logo {
+  width: 100px; /* Ajustez la taille du logo selon vos besoins */
+  height: auto; /* Permet de conserver le rapport hauteur/largeur */
+  margin-right: 30px; /* Espacement entre le logo et le titre */
+  margin-bottom: 20px; /* Ajoutez de l'espace en bas du logo */
+}
+/* Styles spécifiques pour le champ de date */
+
+
+/* Styles pour le titre h2 */
+h2 {
+  color: #007bff; /* Couleur du texte en bleu */
+  text-align: center; /* Centrage horizontal */
+  cursor: pointer;
+  font-size: 3rem; /* Réduire la taille de la police */
+  margin: 20px 0; /* Ajoutez de l'espace au-dessus et en dessous du titre */
+  font-family: Georgia, serif;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+
+h2:hover {
+  color: #0056b3; /* Couleur du texte en bleu plus foncé au survol */
+}
+
+/* Styles pour les boutons */
+.butt {
+  color: #fff; /* Couleur du texte en blanc */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Espacement intérieur des boutons */
+  margin: 0 5px; /* Marge entre les boutons */
+  cursor: pointer; /* Curseur change au survol */
+  transition: background-color 0.3s ease; /* Animation de transition pour le changement de couleur de fond */
+}
+
+.butt:hover {
+  background-color: #7fc8f3; /* Couleur de fond des boutons en gris plus foncé au survol */
+}
+
+/* Styles pour les boutons dans le container */
+.button-container-bn {
+  display: flex; /* Affichage en ligne des boutons */
+  justify-content: center; /* Centrage horizontal des boutons */
+  margin-top:- 20px;
+}
+
+/* Styles pour les labels et les inputs */
+.input-container input,
+.input-container label {
+  color:black;
+}
+
+/* Styles pour les labels au survol */
+.input-container label:hover {
+  color: rgb(42, 114, 223);
+}
+
+/* Styles pour le tableau */
+table {
+  width: 100%; /* Tableau prend toute la largeur */
+  border-collapse: collapse; /* Fusionner les bordures */
+}
+
+th, td {
+  border: 1px solid #000; /* Bordures autour des cellules */
+  padding: 8px; /* Espacement intérieur des cellules */
+}
+
+th {
+  background-color: #f2f2f2; /* Couleur de fond des en-têtes */
+}
+
+/* Espacement entre les lignes du tableau */
+tr:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Styles spécifiques pour les colonnes Qt Defaux, Tot Defaux et Observation */
+.input-container.qtDefaux input,
+.input-container.totDefaux input,
+.input-container.observation input {
+  background-color: #007bff; /* Ajoutez des styles spécifiques ici */
+}
+
+/* Styles spécifiques pour les boutons d'incrémentation et de décrémentation */
+.input-container.qtDefaux button,
+.input-container.totDefaux button {
+  display: flex; /* Affichage en ligne des icônes et des champs d'entrée */
+  align-items: center; /* Centrage vertical */
+  justify-content: center; /* Centrage horizontal */
+  background-color: transparent; /* Fond transparent */
+  border: none; /* Pas de bordure */
+  cursor: pointer; /* Curseur change au survol */
+  color: #007bff; /* Couleur du texte en bleu */
+  font-size: 1rem; /* Taille de police */
+  margin: 0; /* Pas de marge */
+  padding: 0; /* Pas de rembourrage */
+}
+
+.input-container.qtDefaux button .icon,
+.input-container.totDefaux button .icon {
+  margin: 0 5px; /* Marge entre l'icône et le texte */
+}
+
+/* Styles spécifiques pour les champs d'entrée de type bouton */
+.input-container input[type="button"] {
+  display: flex; /* Affichage en ligne */
+  align-items: center; /* Centrage vertical */
+  justify-content: center; /* Centrage horizontal */
+  background-color: #007bff; /* Couleur de fond en bleu */
+  color: #fff; /* Couleur du texte en blanc */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Espacement intérieur */
+  margin: 0 auto; /* Centrage horizontal */
+  cursor: pointer; /* Curseur change au survol */
+  font-size: 1rem; /* Taille de police */
+  transition: background-color 0.3s ease; /* Animation de transition pour le changement de couleur de fond */
+}
+
+/* Style pour les boutons de type bouton au survol */
+.input-container input[type="button"]:hover {
+  background-color: #0056b3; /* Couleur de fond en bleu plus foncé au survol */
+}
+
+/* Styles pour les éléments sans arrière-plan */
+.no-background {
+  background-image:none; /* Supprime l'image de fond */
+  /* Autres styles si nécessaire */
+}
+
+/* Styles pour le conteneur de recherche */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+
+/* Styles pour l'entrée de recherche */
+.search-input {
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  margin-top: -220px;
+ 
+}
+
+/* Styles pour l'icône de recherche */
+.search-icon {
+  margin-right: 5px;
+  color: black;
+  padding-top:-50px;
+
+}
+
+/* Styles pour le conteneur d'en-tête avec navigation */
+.header-with-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Pour pousser les icônes à gauche et le titre à droite */
+  padding: 1px; /* Ajoutez un peu de marge autour du header */
+}
+
+/* Styles pour les icônes à gauche */
+.left-icons {
+  display: flex;
+  align-items: center;
+}
+
+.left-icons > * {
+  margin-right: 5px; /* Ajoutez une marge à droite pour séparer les icônes */
+}
+
+/* Styles pour le logo */
+
+
+/* Styles pour le conteneur du logo et du titre */
+.logo-and-title {
+  display: flex;
+  align-items: center; /* Alignement vertical des éléments */
+  justify-content:left; /* Alignement horizontal des éléments */
+
+
+}
+
+/* Espacement vertical */
+.spacer {
+  height: 20px; /* Ajustez la hauteur selon vos besoins */
+}
+/* Media query pour les écrans de taille maximale de 900 pixels */
+@media (max-width: 990px) {
+  /* Ajoutez vos styles spécifiques pour les écrans de taille maximale de 900 pixels ici */
+  /* Par exemple, vous pouvez modifier la mise en page ou la taille des éléments pour s'adapter à des écrans plus petits */
+  .header-with-navigation {
+    flex-direction: row; /* Aligner les boutons horizontalement */
+    align-items: flex-start; /* Aligner les éléments à gauche */
+    padding: 10px 10px; /* Ajouter un peu de rembourrage supplémentaire */
+  }
+
+  .left-icons {
+    margin-bottom: 10px; /* Ajouter un peu d'espace entre les icônes */
+  }
+
+  
+
+  .search-container {
+    justify-content: flex-start; /* Aligner la recherche à gauche */
+    margin-bottom: 5px; /* Ajouter un peu d'espace en bas de la recherche */
+    margin-top: -90px;
+    padding-top: 5px;
+  }
+
+  .button-container-bn {
+    display: flex; /* Affichage en ligne des boutons */
+    justify-content:space-between; /* Centrage horizontal des boutons */
+    margin-top:- 20px;
+    
+  }
+  .butt {
+    padding: 8px 16px; /* Ajuster l'espacement intérieur des boutons */
+    margin: 0 3px; /* Ajuster la marge entre les boutons */
+    font-size: 14px; /* Réduire la taille de la police */
+  }
+
+  table {
+    font-size: 15px; /* Réduire la taille de la police du tableau */
+  }
+  h2 {
+    font-size: 3rem; /* Réduire la taille de la police */
+    margin: 8px 0; /* Ajouter un peu de marge autour du titre */
+    text-align: center; /* Centrer le texte */
+    margin-right: 30px;
+    margin-left: 0; /* Réinitialiser la marge gauche */
+
+  }
+  .button-container-bn {
+    display: flex;
+    flex-wrap: wrap; /* Permettre le retour à la ligne pour les éléments */
+    justify-content: space-between; /* Espacement équivalent entre les éléments */
+  }
+
+  .button-container-bn .input-container {
+    width: calc(20% - 8px); /* Calculer la largeur de chaque élément */
+    margin-bottom: 3px; /* Espacement entre les éléments */
+    border-radius: 3px; /* Ajouter une bordure arrondie */
+    padding: 1px; /* Ajouter un espacement interne pour les éléments */
+  }
+  .search-input {
+    padding: 8px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-top: 70px;
+  }
+  .search-icon {
+    margin-right: 10px;
+    color: black;
+    margin-top: 60px;
+  }
+  .input-container input[type="date"] {
+    padding: 1px; /* Ajoutez de l'espacement interne */
+    font-size: 14px; /* Ajustez la taille de la police */
+    color: #333; /* Couleur du texte */
+    width: 200px; /* Largeur du champ de date */
+    margin-right: 10px; /* Ajoute de l'espace à droite du champ de date */
+    margin-left: -30px;
+
+  }
+  .logo {
+    width: 100px; /* Ajustez la taille du logo selon vos besoins */
+    height: auto; /* Permet de conserver le rapport hauteur/largeur */
+    margin-right: 30px; /* Espacement entre le logo et le titre */
+    margin-bottom: 20px; /* Ajoutez de l'espace en bas du logo */
+    margin-bottom: 0; /* Réinitialiser la marge en bas */
+
+  }
+  
+  
+}

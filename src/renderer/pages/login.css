@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+
+.login-icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-icon svg {
+    font-size: 36px;
+    color: black;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px; /* Taille de la police augmentée */
+}
+
+
+.login-logo {
+    position: absolute; /* Position absolue pour placer l'image par rapport au conteneur parent */
+    top: 0; /* Place l'image en haut du conteneur */
+    left: 50%; /* Place l'image horizontalement au milieu du conteneur */
+    transform: translateX(-50%); /* Centre l'image horizontalement */
+    z-index: 1; /* Assure que l'image est au-dessus du dégradé de fond */
+    width: 120px; /* Ajustez la taille de l'image selon vos besoins */
+  height: 120px; /* Ajustez la taille de l'image selon vos besoins */
+  border-radius: 80%; /* Créez un cercle */
+  overflow: hidden; /* Masquez les parties de l'image qui dépassent du cercle */
+  margin-top: -80px; /* Ajustez la marge supérieure pour le placer au milieu */
+  }
+  
+
+.login-container {
+    max-width: 430px;
+    padding: 70px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px white;
+    margin: 0 auto;
+    position: relative; /* Ajout de la position relative */
+    top: 100px; /* Ajustement de la position verticale */
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-title {
+    font-weight: bold;
+    color:black;
+}
+
+.login-inputGroup {
+    color:black;
+    margin-bottom: 20px;
+}
+
+.login-inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-inputGroup input {
+    width: 87%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 8px 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent; /* Ajout de cette ligne pour rendre le fond transparent */
+}
+
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+.password-input {
+    position: relative;
+}
+
+.password-input input {
+    width: calc(100% - 30px); /* Réduit la largeur du champ de saisie pour accommoder l'icône */
+    padding-right: 30px; /* Laisse de l'espace à droite pour l'icône */
+}
+
+.password-input svg {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color:black; /* Couleur de l'icône */
+}
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon input {
+    padding-right: 30px; /* Laisse de l'espace à droite pour l'icône */
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color:black; /* Couleur de l'icône */
+}
+.keyboard{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body, input, button {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+/* Dans votre fichier Login.css */
+
+.bg {
+    position: relative; /* Assurez-vous que les éléments enfants peuvent être positionnés par rapport à ce div */
+  }
+  
+  .bg::before {
+    content: ''; /* Ajoute un pseudo-élément pour créer le dégradé */
+    position: absolute; /* Positionne le dégradé par rapport à son parent */
+    top: 0; /* Place le dégradé en haut du parent */
+    left: 0; /* Place le dégradé à gauche du parent */
+    width: 100%; /* Couvre toute la largeur du parent */
+    height: 100%; /* Couvre toute la hauteur du parent */
+    background-image:  url('./IMG_7288.jpg'); /* Ajoute le dégradé sur l'image de fond */
+    background-size: cover; /* Ajuste la taille de l'image de fond pour couvrir complètement son conteneur */
+  }
+  
+  @media (max-width: 990px) {
+    .login-container {
+        max-width: 430px;
+        padding: 70px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px white;
+        margin: 0 auto;
+        position: relative; /* Ajout de la position relative */
+        top: 70px; /* Ajustement de la position verticale */
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    }
+  
+  
+  

@@ -1,0 +1,125 @@
+// data.js
+
+const tableData = [
+    { id: 1,
+    code: 'CMS_00',
+    designation: 'Tete de série ',
+    qtDefaux: '0',
+     totDefaux: '',
+      observation: ''
+    },
+    { id: 2,
+     code: 'CMS_01',
+    designation: 'Manque composant/Absent',
+   
+     qtDefaux: '0',
+     totDefaux: '', 
+     observation: '' 
+    },
+    { id: 3,
+    code: 'CMS_02',
+    designation: 'sens composant',
+    qtDefaux: '0',
+    totDefaux: '',
+     observation: ''
+     },
+    { id: 4,
+         code: 'CMS_03',
+          designation: 'Erreur implantation ou chargement composant/erreur composant',
+           qtDefaux: '0',
+            totDefaux: '',
+             observation: '' },
+    { id: 5,
+         code: 'CMS_04',
+          designation: 'Composant CMS décalé/Deplacé/Debordé',
+           qtDefaux: '0',
+            totDefaux: '', 
+            observation: '' },
+    { id: 6, 
+        code: 'CMS_05',
+         designation: 'Pastille,prise ou composant abimé(s)/deterioré/cassé',
+          qtDefaux: '0',
+           totDefaux: '', observation: ''
+         },
+    { id: 7,
+         code: 'CMS_06',
+          designation: 'court-circuit soudure CMS',
+           qtDefaux: '0',
+            totDefaux: '', 
+            observation: '' 
+        },
+        { id: 8,
+          code: 'CMS_07',
+           designation: 'soudure manquante/Sèches',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+         { id: 9,
+          code: 'CMS_08',
+           designation: 'Défaut colle',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+         { id: 10,
+          code: 'CMS_09',
+           designation: 'process refusion/Activation Creme',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+         { id: 11,
+          code: 'CMS_10',
+           designation: 'Effet manathan (comosant debout/serlevé',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+         { id: 12,
+          code: 'CMS_11',
+           designation: 'Erreur programme,par rapport dossier ou modèle',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+         { id: 13,
+          code: 'CMS_12',
+           designation: 'Pattes surelevées/C.l.Hors allignement',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+         { id: 14,
+          code: 'CMS_13',
+           designation: 'Composant sur la tranche /à l-envers',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+         { id: 15,
+          code: 'CONT_01',
+           designation: 'Défaut soudure',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+         { id: 16,
+          code: 'CONT_03',
+           designation: 'Défaut mécanique /cassé/écrasé',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+         { id: 17,
+          code: 'CONT_05',
+           designation: 'Défaut aspect/Forme/Couleur/Marquage',
+            qtDefaux: '0',
+             totDefaux: '', 
+             observation: '' 
+         },
+        
+  ];
+  
+  export default tableData;
+  
